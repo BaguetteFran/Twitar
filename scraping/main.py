@@ -47,7 +47,7 @@ async def tweet_caller(name, url):
             break
         for tweet in tweets: 
             tweet_count += 1
-            tweet_data = [tweet.id, tweet.user.name, tweet.text, tweet.created_at, tweet.retweet_count, tweet.favorite_count]
+            tweet_data = [tweet.id, tweet.created_at, tweet.user.screen_name, tweet.user.profile_image_url, tweet.user.is_blue_verified, tweet.text, tweet.media, tweet.favorite_count, tweet.view_count, tweet.retweet_count, ]
             with open(f"{name}_tweets.csv", 'a', newline='', encoding='utf-8') as file: 
                 writer = csv.writer(file)
                 writer.writerow(tweet_data)
@@ -67,7 +67,7 @@ async def main_request(name, urls, hashtags):
     wait_time = randint(1,5)
     with open(f'{name}_tweets.csv', 'w', newline='') as file: 
         writer = csv.writer(file)
-        writer.writerow(['Tweet_count', 'Username', 'Text', 'Created_at', 'number_of_tweets', 'number_of_likes'])
+        writer.writerow(['id','created_at','screen_name','profile_img','verified','text','media','favorite_count','view_count','retweet_count'])
     for url in urls:
         print(url)
         await asyncio.sleep(wait_time) 
@@ -94,7 +94,13 @@ hash_news = ['#WorldNews', '#GlobalPolitics', '#BreakingNews', '#Economy', '#Con
 hash_ai = ['#AI', '#MachineLearning', '#DeepLearning', '#NLP', '#Robotics', '#Automation', '#AIethics', '#ComputerVision', '#ReinforcementLearning', '#DataMining']
 hash_math = ['#Mathematics', '#Algebra', '#Geometry', '#Calculus', '#Statistics', '#NumberTheory', '#MathEducation', '#DataScience', '#Puzzles', '#MathHistory']
 
-topic_biology = Topic('Biology', ['edyong209', 'ImmunologyNews', 'NatureEcoEvo', 'TheScientistLLC', 'BMCBiology'],hash_bio)
+topic_biology = Topic('Biology', [
+  "@NatureNews", "@CellCellPress", "@ScienceMagazine", "@TheScientistLLC",
+  "@PLOSBiology", "@eLife", "@NatureBiotech", "@GeneticsGSA", "@ASMicrobiology",
+  "@ASCBiology", "@RoyalSocBio", "@BiochemSoc", "@MicrobioSoc", "@GeneticsSociety",
+  "@BiophysicalSoc", "@SACNAS", "@AAAS", "@NIH", "@NSF", "@CDCgov", "@WHO",
+  "@HHMINEWS", "@NCBI", "@EMBO", "@JAXGenomicMed", "@BroadInstitute", "@SangerInstitute",
+  "@ColdSpringHarb", "@RockefellerUniv"],hash_bio)
 topic_ai = Topic('Artificial Intelligence', ['lexfridman', 'DeepMind', 'OpenAI', 'AndrewYNg', 'MIT_CSAIL'],hash_ai)
 topic_math = Topic('Mathematics', ['Mathologer', 'standupmaths', 'fermatslibrary', 'stevenstrogatz', 'MathematicsProf'],hash_math)
 topic_world_news = Topic('World News', ['BBCWorld', 'CNN', 'Reuters', 'AJEnglish', 'TheEconomist'],hash_news)
