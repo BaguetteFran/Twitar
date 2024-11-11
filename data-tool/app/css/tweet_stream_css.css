@@ -1,0 +1,66 @@
+
+
+.post_stream { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 400px;
+    width: 700px;
+}
+
+
+.post { 
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(25, 23, 34);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.head { 
+    display: flex;
+    flex-direction: row;
+}
+
+.profile_img_div { 
+    width: 50px;
+}
+.profile_img { 
+    border-radius: 100%;
+}
+
+
+.user_name { 
+    text-align: left;
+    font-size: 18;
+    margin-left: 10px; 
+    margin-top: 10px;
+}
+
+
+.text { 
+    margin: 35px;
+}
+
+
+.grader { 
+    text-align: right;
+    margin-left: 200px;
+}
+
+.input-class { 
+    width: 80px;
+    height: 30px;
+}
+
+.number { 
+    color: red;
+    font-size: 30px;
+    text-align: right;
+    margin-right: 20px;
+    padding-left: 40px;
+}
