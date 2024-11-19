@@ -1,0 +1,87 @@
+
+
+.main_list_button { 
+   display: block;
+   width: 100%;
+   text-align: left;
+   color: rgb(0, 0, 0);
+   background: none;        
+   border: none;                                            
+   cursor: pointer;
+   padding-left: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   font-size: 17px;
+   border-radius: 5px;
+   display: flex;                
+   justify-content: space-between;
+
+}
+
+
+.child_list_button {  
+    display: block;
+    width: 100%;
+    background: none;        
+    border: none;                     
+    padding: 13px;                       
+    cursor: pointer;
+    text-align: left;
+    border-left: solid 1px black;
+    color: rgb(85, 79, 79);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+
+.main_list_button:hover { 
+    background-color: rgb(239, 232, 232);
+}
+
+.child_list_button:hover { 
+    background-color: rgb(239, 232, 232);
+
+}
+
+
+/* ------------ LIST-ITEMS --------- */
+
+
+.mainlist_li { 
+    color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.dropdown_li { 
+    text-align: left;
+    border-left:1px solid rgb(85, 80, 80) !important;
+}
+
+.icon { 
+    margin-right: 10px;
+    border-radius: 100px;
+    background: none;        
+    border: none;              
+    transition: transform 0.2s;
+    width: 20px;
+    text-align: center;
+    padding-left: 1px;
+}
+
+.icon--open { 
+   transform: rotate(90deg); 
+
+}
+
+ 
+
+
+.icon:hover { 
+    background-color: rgb(214, 206, 206);
+}
+
+
+
+
+

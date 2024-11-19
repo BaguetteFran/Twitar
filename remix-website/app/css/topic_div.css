@@ -1,0 +1,237 @@
+
+
+
+.topic { 
+    height: 100vh;
+    width: 82vw; 
+    overflow-y: auto;
+    
+    flex-basis: 100%;
+    transition: flex-basis .3s ease;
+    overflow-x: hidden;
+
+}
+
+
+
+
+.post-main { 
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding: 5px;
+    transition: all 0.4 ease;
+    width: 70%;
+    
+}
+
+
+.post-main--open {
+    
+    width: 89%; /* Full viewport width */
+    height: 93%; /* Full viewport height */
+    z-index: 1000;
+    overflow-y: hidden;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    transition: all 0.3s ease; /* Smooth transition */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.post-main--closed {
+    width: 65%;
+    transition: all 0.0s ease; /* Smooth transition */
+}
+
+.left-right { 
+    display: flex;
+}
+
+.post-main--closed:hover { 
+    background-color: rgb(201, 200, 200);
+}
+
+
+hr {
+    border: none; /* Remove default border */
+    height: 1px; /* Thin height for the line */
+    background: linear-gradient(to right, rgb(234, 232, 232), rgb(216, 245, 227));
+    margin-left: 54px;
+    margin-right: 23px;
+    width: 60%;
+}
+
+
+
+/* -------------- top ------------*/
+.profile { 
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+
+.profile-img-container { 
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile-img {
+    width: 30px;
+    border-radius: 100%;
+    margin-top: 7px;
+}
+
+.profile-info { 
+    margin-top: 8px;
+}
+
+.profile-info h1 { 
+    color: rgb(64, 63, 63);
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.profile-info p { 
+    color: rgb(92, 91, 91);
+    font-size:14px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+/* -------------- bottom ------------*/
+
+.content { 
+    padding-bottom: 0px;
+    margin-left: 40px;
+    margin-top: 3px;
+    padding-bottom: 10px;
+    
+
+}
+
+
+
+.content-img-container { 
+    width: 170px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+
+
+}
+
+
+.content-img {  
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.content-info { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.headline { 
+
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 0px;;
+}
+
+.headline p { 
+    margin-top: 5px;
+}
+
+.post-meta { 
+    text-align: right;
+    font-size: 15px;
+    background-color: beige;
+    padding: 0px;
+}
+
+
+/* ------------------- OPEN -------------*/
+
+.post-open-main { 
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+
+    width: 55%;
+
+
+}
+
+.post-open-ai { 
+    border-radius: 10px;
+    background-color: rgb(202, 202, 202);
+    width: 45%;
+}
+
+
+
+
+.img-container-open { 
+    width: 90%;
+    height: 40%;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 2px solid white;
+
+
+}
+
+.open-content-bufer { 
+    width: 93%;
+    padding-top: 10px;
+    margin-left: 20px;
+    border-left: 2px solid white;
+}
+
+.open-content { 
+    max-height: 375px;
+    overflow-y: auto;
+    background-color: rgb(216, 215, 215);
+    margin-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px; 
+}
+
+.open-content p { 
+    padding: 10px;;
+}
+
+.ai-container { 
+    background-color: rgb(118, 110, 110);
+    width: 100%;
+    height: 100%;
+}
