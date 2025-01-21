@@ -1,0 +1,132 @@
+{
+    "post": {
+        "uri": "at://did:plc:o7xt7svg2xtjbb4e2xqahqqc/app.bsky.feed.post/3lfq4vxwlp22d",
+        "cid": "bafyreih2swolqnmuhpz7iziasl33obt2ai2a5f3pqznu7q5aq2zjkjbvum",
+        "author": {
+            "did": "did:plc:o7xt7svg2xtjbb4e2xqahqqc",
+            "handle": "spavel.bsky.social",
+            "displayName": "Pavel",
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:o7xt7svg2xtjbb4e2xqahqqc/bafkreia33xjzvm4m4z3gbqv7dqui3gbnwl5dy2d67ar3kryaqhzv35bqly@jpeg",
+            "associated": {
+                "chat": {
+                    "allowIncoming": "all"
+                }
+            },
+            "viewer": {
+                "muted": false,
+                "blockedBy": false
+            },
+            "labels": [],
+            "createdAt": "2023-04-23T15:29:30.548Z"
+        },
+        "record": {
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2025-01-14T20:50:59.301Z",
+            "embed": {
+                "$type": "app.bsky.embed.record",
+                "record": {
+                    "cid": "bafyreieaucfb62vrxtoiovhx6vlxrkyheoqr4vcstrhbobkjwdx7kz6n2a",
+                    "uri": "at://did:plc:llvz25fk4agau6pf44orcdcm/app.bsky.feed.post/3lfpp6klakc2x"
+                }
+            },
+            "langs": [
+                "en"
+            ],
+            "text": "A rising tide lifts all boats, but not their docks"
+        },
+        "embed": {
+            "$type": "app.bsky.embed.record#view",
+            "record": {
+                "$type": "app.bsky.embed.record#viewRecord",
+                "uri": "at://did:plc:llvz25fk4agau6pf44orcdcm/app.bsky.feed.post/3lfpp6klakc2x",
+                "cid": "bafyreieaucfb62vrxtoiovhx6vlxrkyheoqr4vcstrhbobkjwdx7kz6n2a",
+                "author": {
+                    "did": "did:plc:llvz25fk4agau6pf44orcdcm",
+                    "handle": "joekatz45.bsky.social",
+                    "displayName": "Joe Katz",
+                    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:llvz25fk4agau6pf44orcdcm/bafkreicontikmlz4sz3fpyesucexvkp2nuchnbz5kbfvct5acadtptxae4@jpeg",
+                    "associated": {
+                        "chat": {
+                            "allowIncoming": "following"
+                        }
+                    },
+                    "viewer": {
+                        "muted": false,
+                        "blockedBy": false
+                    },
+                    "labels": [
+                        {
+                            "src": "did:plc:llvz25fk4agau6pf44orcdcm",
+                            "uri": "at://did:plc:llvz25fk4agau6pf44orcdcm/app.bsky.actor.profile/self",
+                            "cid": "bafyreif3y6jefnnpsrrxx3ijam5pw4dn5p53zzqpvojx3gcjm25lilh5f4",
+                            "val": "!no-unauthenticated",
+                            "cts": "1970-01-01T00:00:00.000Z"
+                        }
+                    ],
+                    "createdAt": "2023-05-24T02:31:01.720Z"
+                },
+                "value": {
+                    "$type": "app.bsky.feed.post",
+                    "createdAt": "2025-01-14T16:45:14.901Z",
+                    "embed": {
+                        "$type": "app.bsky.embed.external",
+                        "external": {
+                            "description": "Federal offices, bases, and campuses that could get swamped every time a hurricane spins up or a monster wave crashes over a barrier would together cost more than the annual gross domestic product of ...",
+                            "thumb": {
+                                "$type": "blob",
+                                "ref": {
+                                    "$link": "bafkreiaqfpvif6uhygdolkrmtbga43ao7hunu6lsvc2dxkyhcob4p44nmm"
+                                },
+                                "mimeType": "image/jpeg",
+                                "size": 773261
+                            },
+                            "title": "Rising Seas Imperil US Sites, Military Bases Worth $387 Billion",
+                            "uri": "https://news.bloomberglaw.com/environment-and-energy/rising-seas-imperil-us-sites-military-bases-worth-387-billion"
+                        }
+                    },
+                    "langs": [
+                        "en"
+                    ],
+                    "reply": {
+                        "parent": {
+                            "cid": "bafyreibgyphpb2jqkj7rfwe3nswcy6u3xfd4nlinrxwwb3w7cvi5e4rgde",
+                            "uri": "at://did:plc:llvz25fk4agau6pf44orcdcm/app.bsky.feed.post/3lfpoy5ol322x"
+                        },
+                        "root": {
+                            "cid": "bafyreicnw7nbeezq6zzs744jwge7qlxlwifyywgpey6xnt6ytjyevkniwm",
+                            "uri": "at://did:plc:llvz25fk4agau6pf44orcdcm/app.bsky.feed.post/3lfpigli6n224"
+                        }
+                    },
+                    "text": "Pete Hegseth: \"We will not be focused on climate change in the Navy.\""
+                },
+                "labels": [],
+                "likeCount": 152,
+                "replyCount": 5,
+                "repostCount": 40,
+                "quoteCount": 6,
+                "indexedAt": "2025-01-14T16:45:16.163Z",
+                "embeds": [
+                    {
+                        "$type": "app.bsky.embed.external#view",
+                        "external": {
+                            "uri": "https://news.bloomberglaw.com/environment-and-energy/rising-seas-imperil-us-sites-military-bases-worth-387-billion",
+                            "title": "Rising Seas Imperil US Sites, Military Bases Worth $387 Billion",
+                            "description": "Federal offices, bases, and campuses that could get swamped every time a hurricane spins up or a monster wave crashes over a barrier would together cost more than the annual gross domestic product of ...",
+                            "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:llvz25fk4agau6pf44orcdcm/bafkreiaqfpvif6uhygdolkrmtbga43ao7hunu6lsvc2dxkyhcob4p44nmm@jpeg"
+                        }
+                    }
+                ]
+            }
+        },
+        "replyCount": 0,
+        "repostCount": 3,
+        "likeCount": 23,
+        "quoteCount": 0,
+        "indexedAt": "2025-01-14T20:50:59.952Z",
+        "viewer": {
+            "threadMuted": false,
+            "embeddingDisabled": false
+        },
+        "labels": []
+    }
+}

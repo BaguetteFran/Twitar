@@ -1,0 +1,22 @@
+{
+    "handle": "nature.com",
+    "display_name": "Nature",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vrsppvjc5fysqnm2zshiirey/bafkreied4mi7g6jt3kmlxcyblcv5gmlld6osmgf5w5hhipsw246j7fmhna@jpeg",
+    "text_content": "Analysing voter turnout and victory margins could help to detect fraudulent elections\nhttps://go.nature.com/40cvpTV",
+    "created_at": "2025-01-13T11:39:00.000Z",
+    "like_count": 0,
+    "repost_count": 5,
+    "reply_count": 0,
+    "media_links": [
+        "https://go.nature.com/40cvpTV"
+    ],
+    "embeds": [
+        {
+            "type": "link",
+            "url": "https://go.nature.com/40cvpTV",
+            "title": "Voter turnout drives margins of victory \u2015 if elections are fair",
+            "description": "Model that predicts the spread of winning margins could be used to detect electoral interference.",
+            "thumbnail": "https://media.nature.com/lw1200/magazine-assets/d41586-025-00023-4/d41586-025-00023-4_50441126.jpg"
+        }
+    ]
+}

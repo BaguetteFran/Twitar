@@ -1,0 +1,22 @@
+{
+    "handle": "nature.com",
+    "display_name": "Nature",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vrsppvjc5fysqnm2zshiirey/bafkreied4mi7g6jt3kmlxcyblcv5gmlld6osmgf5w5hhipsw246j7fmhna@jpeg",
+    "text_content": "How do you choose what to call your company? \n\nWobble Genomics\u2019s chief executive, Richard Kuo, explains\nhttps://go.nature.com/40dJnF9",
+    "created_at": "2025-01-13T11:28:00.000Z",
+    "like_count": 0,
+    "repost_count": 3,
+    "reply_count": 0,
+    "media_links": [
+        "https://go.nature.com/40dJnF9"
+    ],
+    "embeds": [
+        {
+            "type": "link",
+            "url": "https://go.nature.com/40dJnF9",
+            "title": "Why a silly-sounding name suits the serious mission of our biotech spin-off",
+            "description": "How do you choose what to call your company? Wobble Genomics\u2019s chief executive, Richard Kuo, explains.",
+            "thumbnail": "https://media.nature.com/lw1200/magazine-assets/d41586-024-03941-x/d41586-024-03941-x_50429954.jpg"
+        }
+    ]
+}

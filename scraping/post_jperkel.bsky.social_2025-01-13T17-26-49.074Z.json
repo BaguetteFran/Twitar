@@ -1,0 +1,22 @@
+{
+    "handle": "jperkel.bsky.social",
+    "display_name": "Jeffrey Perkel (he/him)",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gamxnffpt2rjb6snctf4fdcn/bafkreiedgxotzak7txg3isug3xbw3ugqy2ourakn7iaaqxddi7esp6zmoi@jpeg",
+    "text_content": "\u201cExpansion microscopy gives you opportunities that aren\u2019t available with anything else.\u201d New @nature.com, Elie Dolgin reports on a decade of expansion microscopy (#ExM), 10 yrs old this week, which brings super-res microscopy to all. Feat. @eboyden3.bsky.social. \ud83e\uddea www.nature.com/articles/d41...",
+    "created_at": "2025-01-13T17:26:49.074Z",
+    "like_count": 0,
+    "repost_count": 9,
+    "reply_count": 1,
+    "media_links": [
+        "https://www.nature.com/articles/d41586-025-00059-6"
+    ],
+    "embeds": [
+        {
+            "type": "link",
+            "url": "https://www.nature.com/articles/d41586-025-00059-6",
+            "title": "\u2018Expansion microscopy\u2019 turns ten: how a tissue-swelling method brought super-resolution imaging to the masses",
+            "description": "A decade in, expansion microscopy is unlocking insights across biology and medicine.",
+            "thumbnail": "https://media.nature.com/lw1200/magazine-assets/d41586-025-00059-6/d41586-025-00059-6_50433592.jpg"
+        }
+    ]
+}

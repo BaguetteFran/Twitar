@@ -1,0 +1,123 @@
+{
+    "post": {
+        "uri": "at://did:plc:o7xt7svg2xtjbb4e2xqahqqc/app.bsky.feed.post/3lfo2vjqzgc2d",
+        "cid": "bafyreibohoqbwq4vmidkfytiihzvuhh2nan3x2lm3ejetc42gf6ww4kzk4",
+        "author": {
+            "did": "did:plc:o7xt7svg2xtjbb4e2xqahqqc",
+            "handle": "spavel.bsky.social",
+            "displayName": "Pavel",
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:o7xt7svg2xtjbb4e2xqahqqc/bafkreia33xjzvm4m4z3gbqv7dqui3gbnwl5dy2d67ar3kryaqhzv35bqly@jpeg",
+            "associated": {
+                "chat": {
+                    "allowIncoming": "all"
+                }
+            },
+            "viewer": {
+                "muted": false,
+                "blockedBy": false
+            },
+            "labels": [],
+            "createdAt": "2023-04-23T15:29:30.548Z"
+        },
+        "record": {
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2025-01-14T01:09:37.478Z",
+            "embed": {
+                "$type": "app.bsky.embed.record",
+                "record": {
+                    "cid": "bafyreid3xia4st25jc4yv7ucsukqzbuoodz2pq572yudyoqv4r4a73gsj4",
+                    "uri": "at://did:plc:gouysuoxatjdb5bjcqe4sfh7/app.bsky.feed.post/3lfnyqttz6c2w"
+                }
+            },
+            "langs": [
+                "en"
+            ],
+            "text": "Make the congestion fee $25"
+        },
+        "embed": {
+            "$type": "app.bsky.embed.record#view",
+            "record": {
+                "$type": "app.bsky.embed.record#viewRecord",
+                "uri": "at://did:plc:gouysuoxatjdb5bjcqe4sfh7/app.bsky.feed.post/3lfnyqttz6c2w",
+                "cid": "bafyreid3xia4st25jc4yv7ucsukqzbuoodz2pq572yudyoqv4r4a73gsj4",
+                "author": {
+                    "did": "did:plc:gouysuoxatjdb5bjcqe4sfh7",
+                    "handle": "samd.bsky.social",
+                    "displayName": "Sam",
+                    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gouysuoxatjdb5bjcqe4sfh7/bafkreihzdhfublpe5n7nwrazbxeg5zn3wcajoczry6h3yxlry66dyzacea@jpeg",
+                    "associated": {
+                        "chat": {
+                            "allowIncoming": "all"
+                        }
+                    },
+                    "viewer": {
+                        "muted": false,
+                        "blockedBy": false
+                    },
+                    "labels": [],
+                    "createdAt": "2023-05-01T22:43:55.682Z"
+                },
+                "value": {
+                    "$type": "app.bsky.feed.post",
+                    "createdAt": "2025-01-14T00:31:12.800Z",
+                    "embed": {
+                        "$type": "app.bsky.embed.images",
+                        "images": [
+                            {
+                                "alt": "",
+                                "aspectRatio": {
+                                    "height": 1481,
+                                    "width": 1179
+                                },
+                                "image": {
+                                    "$type": "blob",
+                                    "ref": {
+                                        "$link": "bafkreign3gw32hd5czj7x4d6hobjd7vxml7z5d4kd63bpy7wzdpusyyjre"
+                                    },
+                                    "mimeType": "image/jpeg",
+                                    "size": 453745
+                                }
+                            }
+                        ]
+                    },
+                    "langs": [
+                        "en"
+                    ],
+                    "text": "this is incredible stuff. most state DOTs would spend tens of billions on highway expansions to try and see numbers like this (that wouldn\u2019t even pan out anyway thanks to induced demand lol)"
+                },
+                "labels": [],
+                "likeCount": 7281,
+                "replyCount": 160,
+                "repostCount": 1711,
+                "quoteCount": 262,
+                "indexedAt": "2025-01-14T00:31:15.155Z",
+                "embeds": [
+                    {
+                        "$type": "app.bsky.embed.images#view",
+                        "images": [
+                            {
+                                "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:gouysuoxatjdb5bjcqe4sfh7/bafkreign3gw32hd5czj7x4d6hobjd7vxml7z5d4kd63bpy7wzdpusyyjre@jpeg",
+                                "fullsize": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:gouysuoxatjdb5bjcqe4sfh7/bafkreign3gw32hd5czj7x4d6hobjd7vxml7z5d4kd63bpy7wzdpusyyjre@jpeg",
+                                "alt": "",
+                                "aspectRatio": {
+                                    "height": 1481,
+                                    "width": 1179
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "replyCount": 1,
+        "repostCount": 3,
+        "likeCount": 21,
+        "quoteCount": 1,
+        "indexedAt": "2025-01-14T01:09:38.055Z",
+        "viewer": {
+            "threadMuted": false,
+            "embeddingDisabled": false
+        },
+        "labels": []
+    }
+}

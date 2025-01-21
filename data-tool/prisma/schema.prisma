@@ -1,9 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -13,19 +7,17 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model tweets {
-  id             String   @id @default(uuid()) // Set as primary key
-  created_at     String
-  screen_name    String?
-  profile_img    String?
-  verified       Int?
-  text           String?
-  img_url        String?
-  media          String?
-  favorite_count Int?
-  view_count     Int?
-  retweet_count  Int?
-  score          Int?
-
-  @@unique([id])
+model posts {
+  id           Int     @id @default(autoincrement())
+  handle       String?
+  display_name String?
+  avatar       String?
+  text_content String?
+  created_at   String?
+  like_count   Int?
+  repost_count Int?
+  reply_count  Int?
+  media        String?
+  media_type   String?
+  score        Int?
 }

@@ -1,0 +1,22 @@
+{
+    "handle": "nature.com",
+    "display_name": "Nature",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vrsppvjc5fysqnm2zshiirey/bafkreied4mi7g6jt3kmlxcyblcv5gmlld6osmgf5w5hhipsw246j7fmhna@jpeg",
+    "text_content": "Blood vessels in the brain rhythmically constrict and dilate to drive waves of cleansing fluid through the organ\n\nhttps://go.nature.com/3PwtwN2",
+    "created_at": "2025-01-13T11:11:37.680Z",
+    "like_count": 0,
+    "repost_count": 19,
+    "reply_count": 0,
+    "media_links": [
+        "https://go.nature.com/3PwtwN2"
+    ],
+    "embeds": [
+        {
+            "type": "link",
+            "url": "https://go.nature.com/3PwtwN2",
+            "title": "How the brain cleans itself during deep sleep",
+            "description": "Blood vessels in the brain rhythmically constrict and dilate to drive waves of cleansing fluid through the organ.",
+            "thumbnail": "https://media.nature.com/lw1200/magazine-assets/d41586-025-00007-4/d41586-025-00007-4_50429776.jpg"
+        }
+    ]
+}

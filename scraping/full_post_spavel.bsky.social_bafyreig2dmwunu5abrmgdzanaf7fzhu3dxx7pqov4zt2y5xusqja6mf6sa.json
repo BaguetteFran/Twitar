@@ -1,0 +1,41 @@
+{
+    "post": {
+        "uri": "at://did:plc:o7xt7svg2xtjbb4e2xqahqqc/app.bsky.feed.post/3lfplismqr22d",
+        "cid": "bafyreig2dmwunu5abrmgdzanaf7fzhu3dxx7pqov4zt2y5xusqja6mf6sa",
+        "author": {
+            "did": "did:plc:o7xt7svg2xtjbb4e2xqahqqc",
+            "handle": "spavel.bsky.social",
+            "displayName": "Pavel",
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:o7xt7svg2xtjbb4e2xqahqqc/bafkreia33xjzvm4m4z3gbqv7dqui3gbnwl5dy2d67ar3kryaqhzv35bqly@jpeg",
+            "associated": {
+                "chat": {
+                    "allowIncoming": "all"
+                }
+            },
+            "viewer": {
+                "muted": false,
+                "blockedBy": false
+            },
+            "labels": [],
+            "createdAt": "2023-04-23T15:29:30.548Z"
+        },
+        "record": {
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2025-01-14T15:39:23.917Z",
+            "langs": [
+                "en"
+            ],
+            "text": "Lawyers talk about the Chewbacca Defense, but outside of the courtroom the Chewbacca Attack is far more powerful"
+        },
+        "replyCount": 0,
+        "repostCount": 1,
+        "likeCount": 11,
+        "quoteCount": 0,
+        "indexedAt": "2025-01-14T15:39:24.660Z",
+        "viewer": {
+            "threadMuted": false,
+            "embeddingDisabled": false
+        },
+        "labels": []
+    }
+}

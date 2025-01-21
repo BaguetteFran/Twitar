@@ -1,0 +1,22 @@
+{
+    "handle": "nature.com",
+    "display_name": "Nature",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vrsppvjc5fysqnm2zshiirey/bafkreied4mi7g6jt3kmlxcyblcv5gmlld6osmgf5w5hhipsw246j7fmhna@jpeg",
+    "text_content": "A decade in, expansion microscopy is unlocking insights across biology and medicine\n\nhttps://go.nature.com/4adlNgg",
+    "created_at": "2025-01-13T17:54:00.000Z",
+    "like_count": 0,
+    "repost_count": 9,
+    "reply_count": 1,
+    "media_links": [
+        "https://go.nature.com/4adlNgg"
+    ],
+    "embeds": [
+        {
+            "type": "link",
+            "url": "https://go.nature.com/4adlNgg",
+            "title": "\u2018Expansion microscopy\u2019 turns ten: how a tissue-swelling method brought super-resolution imaging to the masses",
+            "description": "A decade in, expansion microscopy is unlocking insights across biology and medicine.",
+            "thumbnail": "https://media.nature.com/lw1200/magazine-assets/d41586-025-00059-6/d41586-025-00059-6_50433592.jpg"
+        }
+    ]
+}

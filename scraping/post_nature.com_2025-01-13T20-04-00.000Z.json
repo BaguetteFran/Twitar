@@ -1,0 +1,22 @@
+{
+    "handle": "nature.com",
+    "display_name": "Nature",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vrsppvjc5fysqnm2zshiirey/bafkreied4mi7g6jt3kmlxcyblcv5gmlld6osmgf5w5hhipsw246j7fmhna@jpeg",
+    "text_content": "Nature research paper: Structural basis for the conformational protection of nitrogenase from O2\n\nhttps://go.nature.com/4aiD344",
+    "created_at": "2025-01-13T20:04:00.000Z",
+    "like_count": 0,
+    "repost_count": 2,
+    "reply_count": 0,
+    "media_links": [
+        "https://go.nature.com/4aiD344"
+    ],
+    "embeds": [
+        {
+            "type": "link",
+            "url": "https://go.nature.com/4aiD344",
+            "title": "Structural basis for the conformational protection of nitrogenase from O2 - Nature",
+            "description": "Cryo-electron microscopy of Azotobacter vinelandii FeSII\u2013nitrogenase reveals a core complex of molybdenum\u2013iron proteins (MoFePs), iron proteins (FePs) and FeSII, in which FeSII mediates interactions with MoFeP and FeP to position their FeS clusters in catalytically inactive but O2-protected states.",
+            "thumbnail": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-08311-1/MediaObjects/41586_2024_8311_Fig1_HTML.png"
+        }
+    ]
+}

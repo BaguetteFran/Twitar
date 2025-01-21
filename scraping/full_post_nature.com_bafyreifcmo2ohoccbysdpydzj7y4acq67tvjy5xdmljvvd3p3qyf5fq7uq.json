@@ -1,0 +1,85 @@
+{
+    "post": {
+        "uri": "at://did:plc:vrsppvjc5fysqnm2zshiirey/app.bsky.feed.post/3lfpqj2uoef2w",
+        "cid": "bafyreifcmo2ohoccbysdpydzj7y4acq67tvjy5xdmljvvd3p3qyf5fq7uq",
+        "author": {
+            "did": "did:plc:vrsppvjc5fysqnm2zshiirey",
+            "handle": "nature.com",
+            "displayName": "Nature",
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vrsppvjc5fysqnm2zshiirey/bafkreied4mi7g6jt3kmlxcyblcv5gmlld6osmgf5w5hhipsw246j7fmhna@jpeg",
+            "viewer": {
+                "muted": false,
+                "blockedBy": false
+            },
+            "labels": [],
+            "createdAt": "2024-11-21T17:45:33.972Z"
+        },
+        "record": {
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2025-01-14T17:09:00.000Z",
+            "embed": {
+                "$type": "app.bsky.embed.external",
+                "card": {
+                    "description": "Research and resources are crucial to educate parents and carers the world over about the best ways to manage their children\u2019s use of social media.",
+                    "thumb": {
+                        "$type": "blob",
+                        "ref": {
+                            "$link": "bafkreidews5cgkdz3g4sxv2pofxv4rgcvyqudlhu22cqenoc63grn3lrny"
+                        },
+                        "mimeType": "image/jpeg",
+                        "size": 61448
+                    },
+                    "title": "Australia\u2019s social-media ban won\u2019t work \u2014 there are better ways to keep kids safe",
+                    "uri": "https://go.nature.com/4aiRc19"
+                },
+                "external": {
+                    "description": "Research and resources are crucial to educate parents and carers the world over about the best ways to manage their children\u2019s use of social media.",
+                    "thumb": {
+                        "$type": "blob",
+                        "ref": {
+                            "$link": "bafkreidews5cgkdz3g4sxv2pofxv4rgcvyqudlhu22cqenoc63grn3lrny"
+                        },
+                        "mimeType": "image/jpeg",
+                        "size": 61448
+                    },
+                    "title": "Australia\u2019s social-media ban won\u2019t work \u2014 there are better ways to keep kids safe",
+                    "uri": "https://go.nature.com/4aiRc19"
+                }
+            },
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "$type": "app.bsky.richtext.facet#link",
+                            "uri": "https://go.nature.com/4aiRc19"
+                        }
+                    ],
+                    "index": {
+                        "byteEnd": 200,
+                        "byteStart": 171
+                    }
+                }
+            ],
+            "text": "Research and resources are crucial to educate parents and carers the world over about the best ways to manage their children\u2019s use of social media, says Marilyn Campbell\n\nhttps://go.nature.com/4aiRc19"
+        },
+        "embed": {
+            "$type": "app.bsky.embed.external#view",
+            "external": {
+                "uri": "https://go.nature.com/4aiRc19",
+                "title": "Australia\u2019s social-media ban won\u2019t work \u2014 there are better ways to keep kids safe",
+                "description": "Research and resources are crucial to educate parents and carers the world over about the best ways to manage their children\u2019s use of social media.",
+                "thumb": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:vrsppvjc5fysqnm2zshiirey/bafkreidews5cgkdz3g4sxv2pofxv4rgcvyqudlhu22cqenoc63grn3lrny@jpeg"
+            }
+        },
+        "replyCount": 0,
+        "repostCount": 6,
+        "likeCount": 15,
+        "quoteCount": 0,
+        "indexedAt": "2025-01-14T17:09:02.055Z",
+        "viewer": {
+            "threadMuted": false,
+            "embeddingDisabled": false
+        },
+        "labels": []
+    }
+}

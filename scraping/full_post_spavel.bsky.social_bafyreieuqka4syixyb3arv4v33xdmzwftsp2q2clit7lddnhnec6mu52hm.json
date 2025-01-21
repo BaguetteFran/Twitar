@@ -1,0 +1,128 @@
+{
+    "post": {
+        "uri": "at://did:plc:o7xt7svg2xtjbb4e2xqahqqc/app.bsky.feed.post/3lfpn6krpac2v",
+        "cid": "bafyreieuqka4syixyb3arv4v33xdmzwftsp2q2clit7lddnhnec6mu52hm",
+        "author": {
+            "did": "did:plc:o7xt7svg2xtjbb4e2xqahqqc",
+            "handle": "spavel.bsky.social",
+            "displayName": "Pavel",
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:o7xt7svg2xtjbb4e2xqahqqc/bafkreia33xjzvm4m4z3gbqv7dqui3gbnwl5dy2d67ar3kryaqhzv35bqly@jpeg",
+            "associated": {
+                "chat": {
+                    "allowIncoming": "all"
+                }
+            },
+            "viewer": {
+                "muted": false,
+                "blockedBy": false
+            },
+            "labels": [],
+            "createdAt": "2023-04-23T15:29:30.548Z"
+        },
+        "record": {
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2025-01-14T16:09:27.629Z",
+            "embed": {
+                "$type": "app.bsky.embed.record",
+                "record": {
+                    "cid": "bafyreiaovm5kgghl6d6emhuy3ieiwxy32r6al2hgwud3vs2mtzxxtnw54i",
+                    "uri": "at://did:plc:l6arnocvhn2zrll2gn6xlxn2/app.bsky.feed.post/3lf6maqhfvk26"
+                }
+            },
+            "langs": [
+                "en"
+            ],
+            "text": "There's gotta be a hole in the back that they're climbing back into or something"
+        },
+        "embed": {
+            "$type": "app.bsky.embed.record#view",
+            "record": {
+                "$type": "app.bsky.embed.record#viewRecord",
+                "uri": "at://did:plc:l6arnocvhn2zrll2gn6xlxn2/app.bsky.feed.post/3lf6maqhfvk26",
+                "cid": "bafyreiaovm5kgghl6d6emhuy3ieiwxy32r6al2hgwud3vs2mtzxxtnw54i",
+                "author": {
+                    "did": "did:plc:l6arnocvhn2zrll2gn6xlxn2",
+                    "handle": "artologica.net",
+                    "displayName": "Artologica  aka Michele Banks ",
+                    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:l6arnocvhn2zrll2gn6xlxn2/bafkreiaue66kdekij4tjxnsiauf3xl2xkmrw7b3jlf3xfkqkaxrrkb64ha@jpeg",
+                    "associated": {
+                        "chat": {
+                            "allowIncoming": "following"
+                        }
+                    },
+                    "viewer": {
+                        "muted": false,
+                        "blockedBy": false
+                    },
+                    "labels": [],
+                    "createdAt": "2023-04-25T16:00:28.723Z"
+                },
+                "value": {
+                    "$type": "app.bsky.feed.post",
+                    "createdAt": "2025-01-07T21:37:31.397Z",
+                    "embed": {
+                        "$type": "app.bsky.embed.video",
+                        "aspectRatio": {
+                            "height": 760,
+                            "width": 890
+                        },
+                        "video": {
+                            "$type": "blob",
+                            "ref": {
+                                "$link": "bafkreib5av4f473ndyptrmdc5nnb3uj2v5txsv62xoawfbn37humw4c6oq"
+                            },
+                            "mimeType": "video/mp4",
+                            "size": 9623149
+                        }
+                    },
+                    "facets": [
+                        {
+                            "features": [
+                                {
+                                    "$type": "app.bsky.richtext.facet#tag",
+                                    "tag": "sqrlpix"
+                                }
+                            ],
+                            "index": {
+                                "byteEnd": 53,
+                                "byteStart": 45
+                            }
+                        }
+                    ],
+                    "langs": [
+                        "en"
+                    ],
+                    "text": "I went back today and got video. Just watch! #sqrlpix"
+                },
+                "labels": [],
+                "likeCount": 257,
+                "replyCount": 22,
+                "repostCount": 58,
+                "quoteCount": 15,
+                "indexedAt": "2025-01-07T21:37:32.553Z",
+                "embeds": [
+                    {
+                        "$type": "app.bsky.embed.video#view",
+                        "cid": "bafkreib5av4f473ndyptrmdc5nnb3uj2v5txsv62xoawfbn37humw4c6oq",
+                        "playlist": "https://video.bsky.app/watch/did%3Aplc%3Al6arnocvhn2zrll2gn6xlxn2/bafkreib5av4f473ndyptrmdc5nnb3uj2v5txsv62xoawfbn37humw4c6oq/playlist.m3u8",
+                        "thumbnail": "https://video.bsky.app/watch/did%3Aplc%3Al6arnocvhn2zrll2gn6xlxn2/bafkreib5av4f473ndyptrmdc5nnb3uj2v5txsv62xoawfbn37humw4c6oq/thumbnail.jpg",
+                        "aspectRatio": {
+                            "height": 760,
+                            "width": 890
+                        }
+                    }
+                ]
+            }
+        },
+        "replyCount": 0,
+        "repostCount": 0,
+        "likeCount": 5,
+        "quoteCount": 0,
+        "indexedAt": "2025-01-14T16:09:27.455Z",
+        "viewer": {
+            "threadMuted": false,
+            "embeddingDisabled": false
+        },
+        "labels": []
+    }
+}
